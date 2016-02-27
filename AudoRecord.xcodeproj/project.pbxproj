@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12EDE5601C81D6D3006EBA6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EDE55F1C81D6D3006EBA6E /* AppDelegate.swift */; };
+		12EDE5621C81D6D3006EBA6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EDE5611C81D6D3006EBA6E /* ViewController.swift */; };
+		12EDE5651C81D6D3006EBA6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12EDE5631C81D6D3006EBA6E /* Main.storyboard */; };
+		12EDE5681C81D6D3006EBA6E /* AudoRecord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12EDE5661C81D6D3006EBA6E /* AudoRecord.xcdatamodeld */; };
+		12EDE56A1C81D6D3006EBA6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12EDE5691C81D6D3006EBA6E /* Assets.xcassets */; };
+		12EDE56D1C81D6D3006EBA6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12EDE56B1C81D6D3006EBA6E /* LaunchScreen.storyboard */; };
+		12EDE5781C81D6D3006EBA6E /* AudoRecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EDE5771C81D6D3006EBA6E /* AudoRecordTests.swift */; };
+		12EDE5831C81D6D3006EBA6E /* AudoRecordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EDE5821C81D6D3006EBA6E /* AudoRecordUITests.swift */; };
+		12EDE5911C81E578006EBA6E /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EDE5901C81E578006EBA6E /* RecordingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12EDE5741C81D6D3006EBA6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12EDE5541C81D6D3006EBA6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12EDE55B1C81D6D3006EBA6E;
+			remoteInfo = AudoRecord;
+		};
+		12EDE57F1C81D6D3006EBA6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12EDE5541C81D6D3006EBA6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12EDE55B1C81D6D3006EBA6E;
+			remoteInfo = AudoRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12EDE55C1C81D6D3006EBA6E /* AudoRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudoRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12EDE55F1C81D6D3006EBA6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12EDE5611C81D6D3006EBA6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12EDE5641C81D6D3006EBA6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12EDE5671C81D6D3006EBA6E /* AudoRecord.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AudoRecord.xcdatamodel; sourceTree = "<group>"; };
+		12EDE5691C81D6D3006EBA6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12EDE56C1C81D6D3006EBA6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12EDE56E1C81D6D3006EBA6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12EDE5731C81D6D3006EBA6E /* AudoRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudoRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12EDE5771C81D6D3006EBA6E /* AudoRecordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudoRecordTests.swift; sourceTree = "<group>"; };
+		12EDE5791C81D6D3006EBA6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12EDE57E1C81D6D3006EBA6E /* AudoRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudoRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12EDE5821C81D6D3006EBA6E /* AudoRecordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudoRecordUITests.swift; sourceTree = "<group>"; };
+		12EDE5841C81D6D3006EBA6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12EDE5901C81E578006EBA6E /* RecordingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12EDE5591C81D6D3006EBA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12EDE5701C81D6D3006EBA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12EDE57B1C81D6D3006EBA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12EDE5531C81D6D3006EBA6E = {
+			isa = PBXGroup;
+			children = (
+				12EDE55E1C81D6D3006EBA6E /* AudoRecord */,
+				12EDE5761C81D6D3006EBA6E /* AudoRecordTests */,
+				12EDE5811C81D6D3006EBA6E /* AudoRecordUITests */,
+				12EDE55D1C81D6D3006EBA6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12EDE55D1C81D6D3006EBA6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12EDE55C1C81D6D3006EBA6E /* AudoRecord.app */,
+				12EDE5731C81D6D3006EBA6E /* AudoRecordTests.xctest */,
+				12EDE57E1C81D6D3006EBA6E /* AudoRecordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12EDE55E1C81D6D3006EBA6E /* AudoRecord */ = {
+			isa = PBXGroup;
+			children = (
+				12EDE55F1C81D6D3006EBA6E /* AppDelegate.swift */,
+				12EDE5611C81D6D3006EBA6E /* ViewController.swift */,
+				12EDE5631C81D6D3006EBA6E /* Main.storyboard */,
+				12EDE5691C81D6D3006EBA6E /* Assets.xcassets */,
+				12EDE56B1C81D6D3006EBA6E /* LaunchScreen.storyboard */,
+				12EDE56E1C81D6D3006EBA6E /* Info.plist */,
+				12EDE5661C81D6D3006EBA6E /* AudoRecord.xcdatamodeld */,
+				12EDE5901C81E578006EBA6E /* RecordingViewController.swift */,
+			);
+			path = AudoRecord;
+			sourceTree = "<group>";
+		};
+		12EDE5761C81D6D3006EBA6E /* AudoRecordTests */ = {
+			isa = PBXGroup;
+			children = (
+				12EDE5771C81D6D3006EBA6E /* AudoRecordTests.swift */,
+				12EDE5791C81D6D3006EBA6E /* Info.plist */,
+			);
+			path = AudoRecordTests;
+			sourceTree = "<group>";
+		};
+		12EDE5811C81D6D3006EBA6E /* AudoRecordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12EDE5821C81D6D3006EBA6E /* AudoRecordUITests.swift */,
+				12EDE5841C81D6D3006EBA6E /* Info.plist */,
+			);
+			path = AudoRecordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12EDE55B1C81D6D3006EBA6E /* AudoRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12EDE5871C81D6D3006EBA6E /* Build configuration list for PBXNativeTarget "AudoRecord" */;
+			buildPhases = (
+				12EDE5581C81D6D3006EBA6E /* Sources */,
+				12EDE5591C81D6D3006EBA6E /* Frameworks */,
+				12EDE55A1C81D6D3006EBA6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudoRecord;
+			productName = AudoRecord;
+			productReference = 12EDE55C1C81D6D3006EBA6E /* AudoRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12EDE5721C81D6D3006EBA6E /* AudoRecordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12EDE58A1C81D6D3006EBA6E /* Build configuration list for PBXNativeTarget "AudoRecordTests" */;
+			buildPhases = (
+				12EDE56F1C81D6D3006EBA6E /* Sources */,
+				12EDE5701C81D6D3006EBA6E /* Frameworks */,
+				12EDE5711C81D6D3006EBA6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12EDE5751C81D6D3006EBA6E /* PBXTargetDependency */,
+			);
+			name = AudoRecordTests;
+			productName = AudoRecordTests;
+			productReference = 12EDE5731C81D6D3006EBA6E /* AudoRecordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12EDE57D1C81D6D3006EBA6E /* AudoRecordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12EDE58D1C81D6D3006EBA6E /* Build configuration list for PBXNativeTarget "AudoRecordUITests" */;
+			buildPhases = (
+				12EDE57A1C81D6D3006EBA6E /* Sources */,
+				12EDE57B1C81D6D3006EBA6E /* Frameworks */,
+				12EDE57C1C81D6D3006EBA6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12EDE5801C81D6D3006EBA6E /* PBXTargetDependency */,
+			);
+			name = AudoRecordUITests;
+			productName = AudoRecordUITests;
+			productReference = 12EDE57E1C81D6D3006EBA6E /* AudoRecordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12EDE5541C81D6D3006EBA6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = atlassc;
+				TargetAttributes = {
+					12EDE55B1C81D6D3006EBA6E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = J8DP8JU425;
+					};
+					12EDE5721C81D6D3006EBA6E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 12EDE55B1C81D6D3006EBA6E;
+					};
+					12EDE57D1C81D6D3006EBA6E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 12EDE55B1C81D6D3006EBA6E;
+					};
+				};
+			};
+			buildConfigurationList = 12EDE5571C81D6D3006EBA6E /* Build configuration list for PBXProject "AudoRecord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12EDE5531C81D6D3006EBA6E;
+			productRefGroup = 12EDE55D1C81D6D3006EBA6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12EDE55B1C81D6D3006EBA6E /* AudoRecord */,
+				12EDE5721C81D6D3006EBA6E /* AudoRecordTests */,
+				12EDE57D1C81D6D3006EBA6E /* AudoRecordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12EDE55A1C81D6D3006EBA6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12EDE56D1C81D6D3006EBA6E /* LaunchScreen.storyboard in Resources */,
+				12EDE56A1C81D6D3006EBA6E /* Assets.xcassets in Resources */,
+				12EDE5651C81D6D3006EBA6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12EDE5711C81D6D3006EBA6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12EDE57C1C81D6D3006EBA6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12EDE5581C81D6D3006EBA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12EDE5911C81E578006EBA6E /* RecordingViewController.swift in Sources */,
+				12EDE5621C81D6D3006EBA6E /* ViewController.swift in Sources */,
+				12EDE5601C81D6D3006EBA6E /* AppDelegate.swift in Sources */,
+				12EDE5681C81D6D3006EBA6E /* AudoRecord.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12EDE56F1C81D6D3006EBA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12EDE5781C81D6D3006EBA6E /* AudoRecordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12EDE57A1C81D6D3006EBA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12EDE5831C81D6D3006EBA6E /* AudoRecordUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12EDE5751C81D6D3006EBA6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12EDE55B1C81D6D3006EBA6E /* AudoRecord */;
+			targetProxy = 12EDE5741C81D6D3006EBA6E /* PBXContainerItemProxy */;
+		};
+		12EDE5801C81D6D3006EBA6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12EDE55B1C81D6D3006EBA6E /* AudoRecord */;
+			targetProxy = 12EDE57F1C81D6D3006EBA6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12EDE5631C81D6D3006EBA6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12EDE5641C81D6D3006EBA6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12EDE56B1C81D6D3006EBA6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12EDE56C1C81D6D3006EBA6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12EDE5851C81D6D3006EBA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12EDE5861C81D6D3006EBA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12EDE5881C81D6D3006EBA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = AudoRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atlassc.ShinChven.AudoRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		12EDE5891C81D6D3006EBA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = AudoRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atlassc.ShinChven.AudoRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		12EDE58B1C81D6D3006EBA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AudoRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atlassc.ShinChven.AudoRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudoRecord.app/AudoRecord";
+			};
+			name = Debug;
+		};
+		12EDE58C1C81D6D3006EBA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AudoRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atlassc.ShinChven.AudoRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudoRecord.app/AudoRecord";
+			};
+			name = Release;
+		};
+		12EDE58E1C81D6D3006EBA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AudoRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atlassc.ShinChven.AudoRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AudoRecord;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		12EDE58F1C81D6D3006EBA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AudoRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atlassc.ShinChven.AudoRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AudoRecord;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12EDE5571C81D6D3006EBA6E /* Build configuration list for PBXProject "AudoRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12EDE5851C81D6D3006EBA6E /* Debug */,
+				12EDE5861C81D6D3006EBA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12EDE5871C81D6D3006EBA6E /* Build configuration list for PBXNativeTarget "AudoRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12EDE5881C81D6D3006EBA6E /* Debug */,
+				12EDE5891C81D6D3006EBA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12EDE58A1C81D6D3006EBA6E /* Build configuration list for PBXNativeTarget "AudoRecordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12EDE58B1C81D6D3006EBA6E /* Debug */,
+				12EDE58C1C81D6D3006EBA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12EDE58D1C81D6D3006EBA6E /* Build configuration list for PBXNativeTarget "AudoRecordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12EDE58E1C81D6D3006EBA6E /* Debug */,
+				12EDE58F1C81D6D3006EBA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		12EDE5661C81D6D3006EBA6E /* AudoRecord.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				12EDE5671C81D6D3006EBA6E /* AudoRecord.xcdatamodel */,
+			);
+			currentVersion = 12EDE5671C81D6D3006EBA6E /* AudoRecord.xcdatamodel */;
+			path = AudoRecord.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 12EDE5541C81D6D3006EBA6E /* Project object */;
+}
